@@ -1,5 +1,5 @@
 FROM node:18.20.8-slim
 WORKDIR /apps
-COPY ..
+COPY . .
 RUN npm install
 CMD npm start
