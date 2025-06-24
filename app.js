@@ -8,7 +8,7 @@ app.disable("x-powered-by");
 
 // Import Middleware
 const logger = require('./middleware/logger')
-app.use(logger)
+app1.use(logger)
 const connection = require('./middleware/db_connect');
 
 // Dashboard
